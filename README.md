@@ -5,6 +5,7 @@ Code borrowed from: https://github.com/nbarbettini/BeautifulRestApi
 
 After cloning, building, and running project using Visual Studio, let's send a `GET` request on `http://localhost:50647/comments` via Postman.
 Accessing this endpoint allows us to see all (2) of the comments in the sample data.
+
 ![comments](comments.png)
 
 Now, let's look at the Comments `Controller` at `src/Controllers/CommentsController.cs`. There's no actual bug here, but let's put a breakpoint at line 54. You can do so by right-clicking on the light gray margin on the left or with `F9`. Under Actions, we'll put a message to be displayed in the Output Window and check "Continue code execution."
